@@ -59,3 +59,19 @@ console.log(value4.toUpperCase());
 //10. toLowerCase
 const value5 = "Raghav Singh";
 console.log(value5.toLowerCase());
+
+//11. array 
+
+const initialArray = [1,2,3]
+initialArray.push(2);
+console.log(initialArray);
+initialArray.pop();
+initialArray.shift();
+console.log(initialArray);
+
+// 12.  Concat
+
+const initialArray1 = [1,2,3];
+const secondArray = [4,5,6];
+const finalArray = initialArray1.concat(secondArray);
+console.log(finalArray);
